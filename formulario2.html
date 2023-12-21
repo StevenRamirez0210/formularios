@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <h1>::Formulario de registro al portal::</h1>
+</header>
+<body>
+    <form action="" method="get">
+    <fieldset>
+        <legend>
+            Datos personales
+        </legend>
+        <label name="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Steven">
+        <label name="apellidos">Apellidos</label>
+        <input type="text" name="apellidos" id="apellidos" placeholder="Ramirez Guerrero">
+        <br><br>
+        <label name="dni">DNI</label>
+        <input type="text" name="dni" id="dni" placeholder="123456789D">
+        <br><br>
+        <label name="username">Username</label>
+        <input type="text" name="username" id="username">
+        <label name="contraseña">Password</label>
+        <input type="password" name="contraseña" id="contraseña">
+        <label name="repetir">Repetetir contraseña</label>
+        <input type="password" name="repetir" id="repetir">
+        <br><br>
+        <label name="correo">correo</label>
+        <input type="email" name="correo" placeholder="Steven123@gmail.com" id="correo">  
+        <label name="edad">Franja de edad</label>
+        <select id="edad" name="edad" size="2">
+            <option value="menor de 16" selected="selected">Menor de 16</option>
+            <option value="mayor de 16">Mayor de 16</option>
+        </select>
+        
+        <br><br>
+        <label name="sexo">Sexo</label>
+        <input type="radio" id="sexo" name="sexo" value="hombre">Hombre
+        <input type="radio" id="sexo" name="sexo" value="mujer">Mujer
+        <br><br>
+        <label id="codigo" id="codigo">Codigo del pais</label>
+        <input type="number" id="codigo" name="codigo" placeholder="Codigo del pais 2 caracteres">
+        <label id="postal" id="postal">Codigo postal</label>
+        <input type="number" id="postal" name="postal" placeholder="46950">
+        <br><br>
+        <label id="imagen" name="imagen">Imagen personal</label>
+        <input type="file" name="imagen" id="imagen">
+        </fieldset>
+    <fieldset>
+        <legend>Otros datos de interes</legend>
+        <label name="intereses" id="interes">Intereses:</label>
+        <br>
+        <input id="intereses" name="interes" type="checkbox" value="css">CSS
+        <input id="intereses" name="interes" type="checkbox" value="HTML">html5
+        <input id="intereses" name="interes" type="checkbox" value="java">Javascript
+        <br><br>
+        <label id="conexiones" name="conexiones">conexiones</label>
+        <br>
+        <input name="conexiones" id="conexiones" type="checkbox" value="redes">Redes sociales
+        <input name="conexiones" id="conexiones" type="checkbox" value="html">Programacion HTML
+        <input name="conexiones" id="conexiones" type="checkbox" value="CSS">Programacion CSS
+        <input name="conexiones" id="conexiones" type="checkbox" value="diseño">Diseño
+        <br><br>
+        <label id="comentarios" name="comentarios">Comentarios</label>
+        <br>
+        <textarea id="comentarios" name="comentarios" cols="40" rows="5" ></textarea>
+        
+    </fieldset>
+    <br>
+    <input type="button" value="guardar" name="guardar" id="Guardar">
+<input type="reset" name="borrar" id="borrar" value="Borrar">
+    
+</form>
+
+</body>
+</html>
